@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rensponsive.css">
+    <!--    Podpięto Font Awesome    -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--    Podpięgo Google-Fonts    -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:100,400" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Menu nawigacyjne start -->
+    <nav id="main-nav">
+        <label for="drop" class="toggle" id="menu">menu</label>
+        <input type="checkbox" id="drop">
+        <ul>
+            <li><a href="">o mnie</a></li>
+            <li><a href="">umiejętności</a></li>
+            <li><a href="">portfolio</a></li>
+            <li><a href="">kontakt</a></li>
+        </ul>
+    </nav>
+    <!-- Menu nawigacyjne stop -->
+
+    <!-- Nagłówek start  -->
+    <header id="main-header">
+        <div class="main-header-content">
+            <h1>Mateusz <span>Wójkowski</span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
+    </header>
+    <!--  Nagłówek stop  -->
+    <!-- Sekcja "o mnie" start -->
+    <section id="about">
+        <h2>O <span>mnie</span></h2>
+        <figure><img src="img/jan-nowak.jpg" alt=""></figure>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo neque est, aliquam facilis pariatur dicta illum non corrupti. Aspernatur praesentium rem voluptates, voluptate nam ea omnis quam unde magni nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nemo, natus totam! Reiciendis ducimus rerum eos iusto. Facilis, quasi, quas.</p>
+        </article>
+    </section>
+    <!-- Sekcja "o mnie" stop -->
+
+    <!-- Sekcja umiejętności start -->
+    <section id="skills">
+        <h2>Moje <span>umiejętności</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, accusamus, sapiente. Incidunt qui quo neque tempora porro dolores sed, illum non praesentium! Perferendis quisquam tempora, dolores deleniti nihil ducimus necessitatibus?</p>
+        <div id="skills-icons">
+            <figure>
+                <img src="icons/html5.png" alt="">
+                <figcaption>HTML5</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/css3.png" alt="">
+                <figcaption>CSS3</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/js.png" alt="">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+                <img src="icons/jquery.png" alt="">
+                <figcaption>jQuery</figcaption>
+            </figure>
+        </div>
+    </section>
+    <!-- Sekcja umiejętności stop -->
+
+    <!-- Sekcja portfolio start -->
+    <section id="portfolio">
+        <h2>Moje <span>portfolio</span></h2>
+        <div class="portfolio-items">
+            <div class="single-portfolio-item" id="portfolio-item-1">
+                <div class="single-portfolio-item-mask">
+                    <div class="single-portfolio-item-mask-content">
+                        <div class="single-portfolio-item-mask-content-inner">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, dolorem.</p>
+                            <h4>Wykorzystane technologie:</h4>
+                            <p>HTML5, CSS3, Bootstrap, JavaScript, jQuery</p>
+                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-portfolio-item" id="portfolio-item-2">
+                <div class="single-portfolio-item-mask">
+                    <div class="single-portfolio-item-mask-content">
+                        <div class="single-portfolio-item-mask-content-inner">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, assumenda?</p>
+                            <h4>Wykorzystane technologie:</h4>
+                            <p>HTML5, CSS3, Bootstrap, JavaScript, jQuery</p>
+                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-portfolio-item" id="portfolio-item-3">
+                <div class="single-portfolio-item-mask">
+                    <div class="single-portfolio-item-mask-content">
+                        <div class="single-portfolio-item-mask-content-inner">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, aspernatur.</p>
+                            <h4>Wykorzystane technologie:</h4>
+                            <p>HTML5, CSS3, Bootstrap, JavaScript, jQuery</p>
+                            <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sekcja portfolio stop -->
+
+    <!-- Sekcja kontaktowa start -->
+    <section id="contact">
+        <h2>Mateusz <span>Wójkowski</span></h2>
+        <div class="contact-data">
+            <address>
+            ul. Korotyńskiego 20/32 <br>
+            02-123 Warszawa <br> <br>
+            tel: 790 272 395 <br>
+            email: <a href="">mat.wojkowski@gmail.com</a>
+            </address>
+            <div class="contact-social-icons">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form>
+                <input type="text" name="name" id="name" placeholder="Imię i nazwisko">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <textarea name="message" id="message" placeholder="Treść wiadomości"></textarea>
+                <input type="submit" value="Wyślij">
+            </form>
+        </div>
+    </section>
+    <!-- Sekcja kontaktowa stop -->
+
+    <!-- Stopka start -->
+    <footer id="footer">
+        <p>Copyright &copy; Mateusz Wójkowski</p>
+    </footer>
+    <!-- Stopka stop -->
+</body>
+
+</html>
