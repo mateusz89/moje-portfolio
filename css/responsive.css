@@ -20,7 +20,7 @@
     #main-nav>ul {
         display: none;
     }
-    #main-nav #drop:checked+ul {
+    #drop:checked+ul {
         display: block;
     }
     #main-nac>ul>li {
@@ -49,6 +49,53 @@
 }
 /* Responsywny nagłówek stop */
 
+/* Responsywna sekcja O mnie start */
+
+@media all and (max-width: 768px) {
+    #about figure {
+        width: 100%;
+    }
+    #about>figure>img {
+        max-height: inherit;
+    }
+    #about article {
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+/* Responsywna sekcja O mnie stop */
+
+/* Responsywne portfolio start */
+
+@media all and (max-width: 1200px) {
+    .single-portfolio-item {
+        width: 50%;
+    }
+    .single-portfolio-item:last-child {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .single-portfolio-item {
+        width: 100%;
+    }
+}
+
+/* Responsywne portfolio stop */
 
 
-/* Generalne ustawienia responsywne stop */
+
+
+
+
+
+
+
+
+
+
+
+
+
