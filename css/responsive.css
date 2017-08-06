@@ -118,7 +118,7 @@
     .contact-social-icons>a {
         margin: 0;
     }
-    .contact>h2 {
+    #contact>h2 {
         text-align: center;
     }
 }
