@@ -1,11 +1,12 @@
 /* Generalne ustawienia responsywne start */
 
-@media all and (max-width: 1200px) {
-    
-}
+@media all and (max-width: 1200px) {}
+
+
 /*Menu responsywne start */
+
 @media all and (max-width: 992px) {
-   #main-nav .toggle {
+    #main-nav .toggle {
         display: block;
         background-color: #fff;
         padding: 0 20px;
@@ -26,13 +27,11 @@
         display: block;
         width: 100%;
         padding: 20px;
-        text-align: right;     
+        text-align: right;
     }
 }
 
-@media all and (max-width: 680px) {
-    
-}
+@media all and (max-width: 680px) {}
 
-/* Generalne ustawienia responsywne stop */ 
 
+/* Generalne ustawienia responsywne stop */
