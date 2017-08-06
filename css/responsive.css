@@ -2,6 +2,15 @@
 
 @media all and (max-width: 1200px) {}
 
+@media all and (max-width: 680px) {
+    section {
+        padding: 0 40px 50px;
+    }
+}
+
+
+/* Generalne ustawienia responsywne stop */
+
 
 /*Menu responsywne start */
 
@@ -23,16 +32,20 @@
     #drop:checked+ul {
         display: block;
     }
-    #main-nac>ul>li {
+    #main-nav>ul>li {
         display: block;
         width: 100%;
         padding: 20px;
         text-align: right;
     }
 }
+
+
 /*Menu responsywne stop */
 
+
 /* Responsywny nagłówek start */
+
 @media all and (max-width: 768px) {
     .main-header-content {
         padding: 10%;
@@ -47,7 +60,10 @@
         font-size: 1.5em;
     }
 }
+
+
 /* Responsywny nagłówek stop */
+
 
 /* Responsywna sekcja O mnie start */
 
@@ -64,7 +80,9 @@
     }
 }
 
+
 /* Responsywna sekcja O mnie stop */
+
 
 /* Responsywne portfolio start */
 
@@ -83,19 +101,27 @@
     }
 }
 
+
 /* Responsywne portfolio stop */
 
 
+/* Responsywna stopka kontaktowa start */
+
+@media all and (max-width: 768px) {
+    .contact-data {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .contact-social-icons>a {
+        margin: 0;
+    }
+    .contact>h2 {
+        text-align: center;
+    }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* Responsywna stopka kontaktowa stop */
