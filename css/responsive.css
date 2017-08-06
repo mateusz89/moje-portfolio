@@ -30,8 +30,25 @@
         text-align: right;
     }
 }
+/*Menu responsywne stop */
 
-@media all and (max-width: 680px) {}
+/* Responsywny nagłówek start */
+@media all and (max-width: 768px) {
+    .main-header-content {
+        padding: 10%;
+    }
+}
+
+@media all and (max-width: 680px) {
+    #main-header-content>h1 {
+        font-size: 3em;
+    }
+    #main-header-content>h2 {
+        font-size: 1.5em;
+    }
+}
+/* Responsywny nagłówek stop */
+
 
 
 /* Generalne ustawienia responsywne stop */
